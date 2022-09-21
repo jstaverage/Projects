@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sky/ClimateChaos'
+nasm  -f elf -g -l gameloop.lst  ./ClimateChaos.asm 
+ld  -m elf_i386  ./ClimateChaos.o  -o ClimateChaos
+make: Leaving directory '/home/sky/ClimateChaos'
+ 
