@@ -1,0 +1,3 @@
+touch .gitattributes
+ vi .gitattributes
+*.java linguist-language=Java
